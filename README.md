@@ -29,7 +29,11 @@ By working on this project, you'll enhance your skills in:
 
 
 ## 📸 Screenshots
+![0-sprite](https://github.com/v-dav/holbertonschool-Fun-with-CSS/assets/115344057/80397692-1fd8-4091-8bd7-342d65129793)
 
+![b791cfdbd11c0eefa5f7](https://github.com/v-dav/holbertonschool-Fun-with-CSS/assets/115344057/f63b7e62-8b69-4916-962d-28101c70ae76)
+![252a25667dc7c65fe0e9](https://github.com/v-dav/holbertonschool-Fun-with-CSS/assets/115344057/00f7f4d9-0ad9-4878-862d-4d36f1c9fc2d)
+<img width="245" alt="Skärmavbild 2024-01-15 kl  18 40 14" src="https://github.com/v-dav/holbertonschool-Fun-with-CSS/assets/115344057/ca18a5fc-3875-42d8-9418-87e32753a405">
 
 ##  🙇 Author
 
