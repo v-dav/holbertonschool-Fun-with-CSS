@@ -1,0 +1,146 @@
+/*General settings*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/*Position and style the menu container*/
+.menu {
+	margin-top: 200px;
+	margin-left: 47%;
+	margin-right: 50%;
+	position: relative;
+	width: 100px;
+}
+
+/*Hide the checkbox*/
+.menu-open {
+	display: none;
+}
+
+/*Style menu open button*/
+.menu-open-button {
+	display: block;
+	cursor: pointer;
+	width: 100px;
+	height: 100px;
+	background-color: rgb(194, 7, 7);
+	border-radius: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 7px;
+	transition: 0.4s;
+}
+
+/*Style menu items*/
+.menu-item {
+	font-size: 30px;
+	cursor: pointer;
+	width: 100px;
+	height: 100px;
+	background-color: transparent;
+	border-radius: 50%;
+	position: absolute;
+	color: transparent;
+	transition: 0.4s;
+	top: 0px;
+	z-index: -10;
+}
+
+
+/*Style menu item icons*/
+.menu-item i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+/*Style menu open button lines*/
+.menu-line {
+	display: block;
+	width: 35px;
+	height: 3px;
+	background-color: white;
+	border-radius: 3px;
+	transition: 0.4s;
+}
+
+/*=============== ANIMATIONS =================*/
+
+/*Menu button*/
+.menu-open-button:active {
+	transform: scale(1.5, 1.5);
+}
+
+.menu-open:checked + .menu-open-button .menu-line-2 {
+	opacity: 0;
+}
+
+.menu-open:checked + .menu-open-button .menu-line-1 {
+	transform: translate(0, 10px) rotate(45deg)
+}
+
+.menu-open:checked + .menu-open-button .menu-line-3 {
+	transform: translate(0, -10px) rotate(-45deg);
+}
+
+/*Position menu items*/
+
+.menu-open:checked + .menu-open-button + .menu-item {
+	top: 130px;
+	color: white;
+	background-color: rgb(194, 7, 7);
+}
+
+.menu-open:checked + .menu-open-button + .menu-item + .menu-item {
+	top: 240px;
+	color: white;
+	background-color: rgb(194, 7, 7);
+}
+
+.menu-open:checked + .menu-open-button + .menu-item + .menu-item + .menu-item {
+	top: 350px;
+	color: white;
+	background-color: rgb(194, 7, 7);
+}
+
+.menu-open:checked + .menu-open-button + .menu-item + .menu-item + .menu-item + .menu-item {
+	top: 460px;
+	color: white;
+	background-color: rgb(194, 7, 7);
+}
+
+.menu-open:checked + .menu-open-button + .menu-item + .menu-item + .menu-item + .menu-item + .menu-item {
+	top: 570px;
+	color: white;
+	background-color: rgb(194, 7, 7);
+}
+
+/* Hover Menu Items */
+.menu-open:checked + .menu-open-button + .menu-item:hover {
+	background-color: white;
+	color: rgb(194, 7, 7);
+	border: solid 1px rgb(194, 7, 7);
+}
+
+.menu-open:checked + .menu-open-button + .menu-item ~ .menu-item:hover {
+	background-color: white;
+	color: rgb(194, 7, 7);
+	border: solid 1px rgb(194, 7, 7);
+}
+
+.menu-open:checked + .menu-open-button + .menu-item + .menu-item ~ .menu-item:hover {
+	background-color: white;
+	color: rgb(194, 7, 7);
+	border: solid 1px rgb(194, 7, 7);
+}
+
+.menu-open:checked + .menu-open-button + .menu-item + .menu-item + .menu-item ~ .menu-item:hover {
+	background-color: white;
+	color: rgb(194, 7, 7);
+	border: solid 1px rgb(194, 7, 7);
+}
