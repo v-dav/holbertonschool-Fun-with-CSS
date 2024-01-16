@@ -31,7 +31,6 @@
 	height: 100%;
 	cursor: pointer;
 	background-color: rgb(231, 229, 229);
-	transition: .4s;
 	border-radius: 34px;
 	border: solid 1px gray;
 }
